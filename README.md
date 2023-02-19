@@ -1,6 +1,5 @@
 # Calculadora_IMC
-Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO.
-
+Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. 
 
 
 ## :camera_flash: Screenshots
@@ -27,7 +26,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Melhorar estilização do app
 
 ## Author
-Gabriel Niedermeyer (follow me on [Linkedin](https://www.linkedin.com/in/gabriel-niedermeyer/)
+Gabriel Niedermeyer (follow me on [Linkedin](https://www.linkedin.com/in/gabriel-niedermeyer/))
 
 ## License
 ```
