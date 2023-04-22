@@ -31,7 +31,7 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        android:text="Calcular"
+        android:text="Done"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
