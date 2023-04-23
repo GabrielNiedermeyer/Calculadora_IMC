@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -14,21 +13,22 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
        val btnCalcular: Button = findViewById<Button>(R.id.btnCalcular)
-        val edtPeso: EditText = findViewById(R.id.edt_peso)
-        val edtAltura: EditText = findViewById (R.id.edt_altura)
+        val edtweight: EditText = findViewById(R.id.edt_weight)
+        val edtHeight: EditText = findViewById (R.id.edt_height)
+
 
 
         btnCalcular.setOnClickListener {
 
-            val alturaStr = edtAltura.text.toString ()
-            val pesoStr = edtPeso.text.toString()
+            val heightStr = edtHeight.text.toString ()
+            val weightStr = edtweight.text.toString()
 
-            if (alturaStr.isNotEmpty() && pesoStr.isNotEmpty()) {
-                val altura: Float = alturaStr.toFloat()
-                val peso: Float = pesoStr.toFloat()
+            if (heightStr.isNotEmpty() && weightStr.isNotEmpty()) {
+                val height: Float = heightStr.toFloat()
+                val weight: Float = weightStr.toFloat()
 
-                val alturaFinal: Float = altura * altura
-                val result: Float = peso / alturaFinal
+                val newHeight: Float = height * height
+                val result: Float = weight/ newHeight
 
 
                 val intent = Intent(this, ResultActivity::class.java)
