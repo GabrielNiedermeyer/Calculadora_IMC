@@ -1,5 +1,5 @@
-# Calculadora_IMC
-Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. 
+# Calculator_BMI
+BMI Calculator was an app I developed to improve my knowledge so far as an Android developer.
 
 
 ## :camera_flash: Screenshots
@@ -8,7 +8,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 
 ## Tecnologias
 * Kotlin
-* Activity para host de telas
+* Activity for screen host
 * ViewGroup
     * RelativeLayout
     * LinearLayout
@@ -16,14 +16,13 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
     - TextView
     - EditText
     - Button
-- Toast para display de mensagens
-- Intent Explicita para abrir a segunda Activity
-- FindViewById para recuperar components de UI
-- String resource para concatenação de textos
+- Explicit Intent to open the second Activity
+- FindViewById to retrieve UI components
+- String resource for text concatenation
 
 
 ### TODO
-- Melhorar estilização do app
+- Improve app styling
 
 ## Author
 Gabriel Niedermeyer (follow me on [Linkedin](https://www.linkedin.com/in/gabriel-niedermeyer/))
